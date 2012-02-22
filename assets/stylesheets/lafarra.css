@@ -1,0 +1,84 @@
+#fondo-home {	
+	position:absolute;
+	width:320px;
+	height:353px;
+	z-index:1;
+	background-image: url(../images/layout/fondo-home.png);
+	margin-top: 0;
+	margin-left: 0;
+}
+
+#fondo-djs {	
+	background-image: url(../images/superfondo.png);
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-repeat: no-repeat;
+}
+
+#logo {
+	position:absolute;
+	width:242px;
+	height:239px;
+	z-index:5;
+	left: 46px;
+	top: 248px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#player {
+	position:absolute;
+	width:305px;
+	height:47px;
+	z-index:6;
+	left: 7px;
+	top: 495px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	background-color: #333333;
+}
+#apDiv5 {
+	position:absolute;
+	width:312px;
+	height:79px;
+	z-index:7;
+	left: 6px;
+	top: 444px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#apDiv6 {
+	position:absolute;
+	width:47px;
+	height:53px;
+	z-index:1;
+	left: 83px;
+	top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#apDiv7 {
+	position:absolute;
+	width:52px;
+	height:52px;
+	z-index:2;
+	left: 150px;
+	top: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#apDivx {
+	position:absolute;
+	width:233px;
+	height:238px;
+	z-index:5;
+	left: 44px;
+	top: 103px;
+}
+#apDiv4 {
+	position:absolute;
+	width:239px;
+	height:50px;
+	z-index:6;
+	left: 42px;
+	top: 369px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFFFFF;
+}

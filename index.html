@@ -1,0 +1,213 @@
+<!doctype html>
+<html manifest="index.appcache">
+<head>
+    <meta charset="utf-8">
+    <title>LaFarra</title>
+    <meta name="description" content="">
+    <meta name="author" content="Nube De Ideas (@nubedeideas)">
+    <!-- Mobile viewport optimization http://goo.gl/b9SaQ -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- For iPhone 4 with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/icon@2x.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/icon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/icon.png">
+    <link rel="apple-touch-startup-image" href="assets/images/default.png">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="./lungo.js/lungo-1.1.1.min.css">
+    <link rel="stylesheet" href="./lungo.js/lungo.theme.default.css">
+    <link rel="stylesheet" href="assets/stylesheets/lafarra.css">
+</head>
+
+<body class="app">
+    <!--
+        First, you have to do is create a LungoJS Application instance in the file app.js.
+        ...and use a Webkit browser as Chrome or Safari.
+    -->
+    <section id="welcome">
+         <header data-title="Lo mejor de tu Fin De Semana">
+                
+        </header>
+        <article id="home" class="contain">
+            <div id="fondo-home">
+                <div id="logo"><img src="assets/images/logo.png" width="235" height="241" alt="logo" /></div>
+                <div id="player">
+                    <a href="#" id="jump">Play</a>
+                    <a href="#" id="kick">Reload</a>
+                    <script>
+                        $(document).ready(function(){
+                            document.getElementById('jump').addEventListener('click', function() {
+                                LUNGO.Sugar.Sound.play('assets/sound/2.wav');
+                            }, false);
+
+                            document.getElementById('kick').addEventListener('click', function() {
+                                LUNGO.Sugar.Sound.play('assets/sound/1.wav');
+                            }, false);
+                        });
+                    </script>
+                </div>
+            </div>
+        </article>
+
+        <article id="djs" class="contain scrollable">
+            <div class="indent">
+                <div id="dj1">
+                    <a href="#dj1" data-target="article">
+                        <img src="assets/images/content/dj1.png" width="320" height="119" border="0" />
+                    </a>
+                </div>
+                <div id="djs2">
+                    <a href="#dj2" data-target="article">
+                        <img src="assets/images/content/dj2.png" width="320" height="119" border="0" />
+                    </a>
+                </div>
+                <div id="dj3">
+                    <a href="#dj3" data-target="article">
+                        <img src="assets/images/content/dj3.png" width="320" height="119" border="0" />
+                    </a>
+                </div>
+
+            </div>
+        </article>
+
+        <article id="dj1" class="contain scrollable">
+            <div class="indent">
+                <div id="fotodj">
+                    <img src="assets/images/content/foto_dj1.png" width="310" height="140" alt="fotodj1" />
+                </div>
+                <div>
+                    Nació en la ciudad de Bucaramanga (Colombia)  Desde sus inicios en la escena Dee Jay (2000) ha logrado escalar posiciones importantes a tal punto que hoy es considerado uno de los mas grandes djs de la música crossover no solo en Colombia sino en toda Latinoamérica.
+                </div>
+                <div id="apDiv2">
+                    <img src="assets/images/layout/fd_webs.png" width="310" height="74" alt="fd_webs" />
+                </div>
+                <div id="twit">
+                    <div id="apDivff">
+                        <a href="#"><img src="assets/images/layout/bt_twitt.png" name="twitdj1" width="45" height="47" border="0" id="twitdj1" /></a>
+                    </div>
+                </div>
+                <div id="face">
+                    <div id="apDivgg">
+                        <a href="#"><img src="assets/images/layout/bt_face.png" name="facedj1" width="45" height="47" border="0" /></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+ 
+        <article id="dj2" class="contain scrollable">
+            <div class="indent">
+                <div id="fotodj">
+                    <img src="assets/images/content/foto_dj2.png" width="310" height="140" alt="fotodj1" />
+                </div>
+                <div>
+                    Dj Productor, con mas de 17 años de experiencia en producción, realización de mezclas y remixes latinos. Escuchalo en Colombia los viernes de 6 pm a 4 am y los Sabados de 2 PM a 4 AM en Bogotá por Rumba St 104.7 fm.
+                </div>
+                <div id="apDiv2">
+                    <img src="assets/images/layout/fd_webs.png" width="310" height="74" alt="fd_webs" />
+                </div>
+                <div id="twit">
+                    <div id="apDivcc">
+                        <a href="#"><img src="assets/images/layout/bt_twitt.png" name="twitdj1" width="45" height="47" border="0" id="twitdj1" /></a>
+                    </div>
+                </div>
+                <div id="face">
+                    <div id="apDivdc">
+                        <a href="#"><img src="assets/images/layout/bt_face.png" name="facedj1" width="45" height="47" border="0" /></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="dj3" class="contain scrollable">
+            <div class="indent">
+                <div id="fotodj">
+                    <img src="assets/images/content/foto_dj3.png" width="310" height="140" alt="fotodj1" />
+                </div>
+                <div>
+                    Dj - Productor y Locutor, mas de 20 años en la radio demuestran por que es uno de los mejores locutores latinos en España.
+                    <br />
+                    En Colombia trabajo para: Oxigeno - La Mega y Radioactiva.
+                </div>
+                <div id="apDiv2">
+                    <img src="assets/images/layout/fd_webs.png" width="310" height="74" alt="fd_webs" />
+                </div>
+                <div id="twit">
+                    <div id="apDivd">
+                        <a href="#"><img src="assets/images/layout/bt_twitt.png" name="twitdj1" width="45" height="47" border="0" id="twitdj1" /></a>
+                    </div>
+                </div>
+                <div id="face">
+                    <div id="apDivc">
+                        <a href="#"><img src="assets/images/layout/bt_face.png" name="facedj1" width="45" height="47" border="0" /></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="eventos" class="contain scrollable">
+                <img src="assets/images/content/evento1.png" width="320" height="493" alt="evento1" />
+        </article>
+
+        <article id="social" class="contain">
+            <div class="indent">
+                <div id="apDivx">
+                    <img src="assets/images/logo.png" width="235" height="241" alt="logo farra" />
+                </div>
+                <div id="apDiv4">
+                    Nuestro programa lo siguen djs de todo el mundo y gente comoo tú no te pierdas nada, siguenos en:
+                </div>
+                <div id="apDiv5">
+                    <img src="assets/images/layout/fd_social.png" width="315" height="77" alt="social" />
+                    <div id="apDiv7">
+                        <a href="#">
+                        <img src="assets/images/layout/bt_face.png" name="face" width="45" height="47" border="0" id="face" /></a>
+                    </div>
+                    <div id="apDiv6">
+                        <a href="#">
+                        <img src="assets/images/layout/bt_twitt.png" name="twit" width="45" height="47" border="0" id="twit" /></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="info" class="contain scrollable">
+            <div class="indent">
+                <div id="fotodj">
+                    <img src="assets/images/logofarrainfo.png" width="320" height="106" alt="logoinfo" />
+                </div>
+                <div>Creado desde el año 1999 en la emisora Oxigeno Colombia <br />
+    (Caracol radio), con los djs Sergio Romero, Fernando Palma y Mauricio Lombana quien en siguio con este formato de programa en Madrid España en la radio Eurocaribe <br />
+  101.6 fm en el año 2003 y luego en el año 2007 en Unika radio 93.8 fm,  de ahi se abrio mas el circulo de emisoras que se fueron conectando cada fin de semana, hasta la fecha son mas de 8 estaciones radiales en Europa y 3 en Latinoamerica que siguen disfrutando de lo mejor del
+                </div>
+                <div id="apDiv2">
+                    <img src="assets/images/layout/fd_webs.png" width="310" height="74" alt="fd_webs" />
+                </div>
+            </div>
+        </article>
+
+        <footer class="toolbar">
+            <nav>
+                <a href="#home" data-target="article" data-title="Lo mejor de Tu Fin De Semana"><img src="assets/images/menu/bt_home.png" /></a>
+                <a href="#djs" data-target="article" data-title="Los Djs de La Farra"><img src="assets/images/menu/bt_djs.png" /></a>
+                <a href="#eventos" data-target="article" data-title="No te pierdas nuestras Farras"><img src="assets/images/menu/bt_eventos.png" /></a>
+                <a href="#social" data-target="article" data-title="Lo mejor de Tu Fin De Semana"><img src="assets/images/menu/bt_social.png" /></a>
+                <a href="#info" data-target="article" data-title="Conoce la Farra"><img src="assets/images/menu/bt_info.png" /></a>
+            </nav>
+        </footer>
+    </section>
+
+    <!-- LungoJS (Production mode) -->
+    <script src="lungo.js/lungo-1.1.1.packed.js"></script>
+    <script src="lungo.js/Lungo.Sugar.Sound.js"></script>
+    <!-- LungoJS - Sandbox App -->
+    <script src="app/app.js"></script>
+    <script src="app/data.js"></script>
+    <script src="app/events.js"></script>
+    <script src="app/services.js"></script>
+    <script src="app/view.js"></script>
+</body>
+</html>
