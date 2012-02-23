@@ -1,4 +1,4 @@
-#fondo-home {	
+.fondo-home {	
 	position:absolute;
 	width:320px;
 	height:353px;
@@ -6,6 +6,12 @@
 	background-image: url(../images/layout/fondo-home.png);
 	margin-top: 0;
 	margin-left: 0;
+}
+
+.logo-home {	
+	position:absolute;
+	margin-top: 120px;
+	margin-left: 40px;
 }
 
 #fondo-djs {	
@@ -26,18 +32,18 @@
 	top: 248px;
 	font-family: Arial, Helvetica, sans-serif;
 }
-#player {
+.player {
 	position:absolute;
 	width:305px;
 	height:47px;
 	z-index:6;
-	left: 7px;
-	top: 495px;
+	margin-left: 40px;
+	margin-top: 340px;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #333333;
 	background-color: #333333;
 }
-#apDiv5 {
+.fondoSocial {
 	position:absolute;
 	width:312px;
 	height:79px;
@@ -46,7 +52,7 @@
 	top: 444px;
 	font-family: Arial, Helvetica, sans-serif;
 }
-#apDiv6 {
+.twitt {
 	position:absolute;
 	width:47px;
 	height:53px;
@@ -55,7 +61,7 @@
 	top: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 }
-#apDiv7 {
+.faceb{
 	position:absolute;
 	width:52px;
 	height:52px;
@@ -72,7 +78,7 @@
 	left: 44px;
 	top: 103px;
 }
-#apDiv4 {
+.txtSocial {
 	position:absolute;
 	width:239px;
 	height:50px;
@@ -80,5 +86,9 @@
 	left: 42px;
 	top: 369px;
 	font-family: Verdana, Geneva, sans-serif;
-	color: #FFFFFF;
+	color: #fff;
+}
+.txtFarra {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #fff;
 }
