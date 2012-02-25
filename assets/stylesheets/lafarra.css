@@ -10,8 +10,8 @@
 
 .logo-home {	
 	position:absolute;
-	margin-top: 120px;
-	margin-left: 40px;
+	margin-top: 0px;
+	margin-left: 0px;
 }
 
 #fondo-djs {	
@@ -34,14 +34,9 @@
 }
 .player {
 	position:absolute;
-	width:305px;
-	height:47px;
 	z-index:6;
-	margin-left: 40px;
-	margin-top: 340px;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #333333;
-	background-color: #333333;
+	margin-left: 0px;
+	margin-top: 292px;
 }
 .fondoSocial {
 	position:absolute;
@@ -49,7 +44,7 @@
 	height:79px;
 	z-index:7;
 	left: 6px;
-	top: 444px;
+	top: 290px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 .twitt {
@@ -84,10 +79,12 @@
 	height:50px;
 	z-index:6;
 	left: 42px;
-	top: 369px;
+	top: 360px;
 	font-family: Verdana, Geneva, sans-serif;
 	color: #fff;
 }
+
+
 .txtFarra {
 	font-family: Verdana, Geneva, sans-serif;
 	color: #fff;

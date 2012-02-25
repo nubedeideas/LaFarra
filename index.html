@@ -21,12 +21,6 @@
     <link rel="stylesheet" href="./lungo.js/lungo-1.1.2.min.css">
     <link rel="stylesheet" href="./lungo.js/lungo.theme.default.css">
     <link rel="stylesheet" href="assets/stylesheets/lafarra.css">
-    <script type="text/javascript">
-        function playS(){
-            LUNGO.Sugar.Sound.play('http://server10.20comunicacion.com:8012/stream');
-        }
-
-    </script>
 </head>
 
 <body class="app">
@@ -49,45 +43,15 @@
 
         <article id="home" class="scrollable">
             <div class="indent">
-                <img src="assets/images/logo.png" width="235" height="241" alt="logo" class="logo-home"/>
+                <img src="assets/images/logo-lafarra.png" width="320" height="292" alt="logo" class="logo-home"/>
                 <div class="player">
-                    <a href="#" onclick="playS();">Escucha LaFarra!!</a>
+                    <a href="#" id="player" onclick="playerS();"><img src="assets/images/layout/player.png" width="320" height="48" alt="logo"/></a>
                 </div>
             </div>
         </article>
 
         <article id="djs" class="scrollable">
             <div class="indent">
-                <div>
-                    <a href="#dj1" data-target="article">
-                        <img src="assets/images/content/dj1.png" width="320" height="119" border="0" />
-                    </a>
-                </div>
-                <div>
-                    <a href="#dj2" data-target="article">
-                        <img src="assets/images/content/dj2.png" width="320" height="119" border="0" />
-                    </a>
-                </div>
-                <div>
-                    <a href="#dj3" data-target="article">
-                        <img src="assets/images/content/dj3.png" width="320" height="119" border="0" />
-                    </a>
-                </div>
-                <div>
-                    <a href="#dj1" data-target="article">
-                        <img src="assets/images/content/dj1.png" width="320" height="119" border="0" />
-                    </a>
-                </div>
-                <div>
-                    <a href="#dj2" data-target="article">
-                        <img src="assets/images/content/dj2.png" width="320" height="119" border="0" />
-                    </a>
-                </div>
-                <div>
-                    <a href="#dj3" data-target="article">
-                        <img src="assets/images/content/dj3.png" width="320" height="119" border="0" />
-                    </a>
-                </div>
                 <div>
                     <a href="#dj1" data-target="article">
                         <img src="assets/images/content/dj1.png" width="320" height="119" border="0" />
@@ -175,10 +139,7 @@
 
         <article id="social" class="scrollable">
             <div class="indent">
-                <img src="assets/images/logo.png" width="235" height="241" alt="logo farra" class="logo-home"/>
-                <div class="txtSocial">
-                    Nuestro programa lo siguen djs de todo el mundo y gente comoo tú no te pierdas nada, siguenos en:
-                </div>
+                <img src="assets/images/logo-social.png" width="320" height="311" alt="logo farra" class="logo-home"/>
                 <div class="fondoSocial">
                     <img src="assets/images/layout/fd_social.png" width="315" height="77" alt="social" />
                     <div class="faceb">
@@ -189,6 +150,9 @@
                         <a href="#">
                         <img src="assets/images/layout/bt_twitt.png" name="twit" width="45" height="47" border="0" id="twit" /></a>
                     </div>
+                </div>
+                <div class="txtSocial">
+                    Nuestro programa lo siguen djs de todo el mundo y gente comoo tú no te pierdas nada, siguenos en:
                 </div>
             </div>
         </article>
@@ -216,5 +180,10 @@
     <script src="app/events.js"></script>
     <script src="app/services.js"></script>
     <script src="app/view.js"></script>
+    <script type="text/javascript">
+        function playerS(){
+            LUNGO.Sugar.Sound.background('http://server10.20comunicacion.com:8012/stream.mp3');
+        }
+    </script>
 </body>
 </html>

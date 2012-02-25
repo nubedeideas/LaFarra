@@ -80,7 +80,7 @@ article .text{margin:4px 0 8px;display:block;font-size:0.9em;font-weight:normal;
 .scroll{overflow:scroll;-webkit-overflow-scrolling:touch;}
 .onleft{float:left;}
 .onright{float:right;}
-.indented{width:auto;height:auto;padding:10px 10px 0px;}
+.indented{width:auto;height:auto;padding:0px 0px 0px;}
 .indented ul{margin-bottom:10px;height:auto;width:inherit;}
 .rounded ul{-webkit-border-radius:4px;border-radius:4px;-webkit-background-clip:padding-box;background-clip:padding-box;}
 .rounded li:first-child{-webkit-border-radius:4px 4px 0px 0px;border-radius:4px 4px 0px 0px;-webkit-background-clip:padding-box;background-clip:padding-box;}
