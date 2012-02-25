@@ -4,10 +4,10 @@
 	id		= "com.nubeideas.lafarra"
 	version 	= "1.0.0">
 
-	<name>La Farra - Demo</name>
+	<name>La Farra</name>
 
 	<description>
-		Descripción de la Lo mejor de tu fin de semana
+		Lo mejor de tu Fin de Semana!
 	</description>
 
 	<author href="http://www.nubedeideas.com"
