@@ -171,6 +171,8 @@
         </article>
     </section>
 
+    <!-- PhoneGap -->
+    <script src="phonegap.js"></script>
     <!-- LungoJS (Production mode) -->
     <script src="lungo.js/lungo-1.1.2.packed.js"></script>
     <script src="lungo.js/Lungo.Sugar.Sound.js"></script>
@@ -182,7 +184,20 @@
     <script src="app/view.js"></script>
     <script type="text/javascript">
         function playerS(){
-            LUNGO.Sugar.Sound.background('http://server10.20comunicacion.com:8012/stream.mp3');
+            var urlplayer = 'http://server10.20comunicacion.com:8012/stream.mp3';
+            //LUNGO.Sugar.Sound.background('http://server10.20comunicacion.com:8012/stream.mp3');
+            my_media = new Media(urlplayer, onSuccess, onError);
+            my_media.play();
+        }
+        function onSuccess() {
+            console.log("playAudio():Audio Success");
+        }
+
+        // onError Callback 
+        //
+        function onError(error) {
+            alert('code: '    + error.code    + '\n' + 
+                  'message: ' + error.message + '\n');
         }
     </script>
 </body>
